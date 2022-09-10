@@ -2,3 +2,30 @@ body {
     background-color: rgb(36, 36, 36);
     color: white;
 }
+
+.nav-logo {
+    width: 100px;
+    height: 100px;
+    font-size: 42pt;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: right;
+    color: white;
+    background-color: #4F6BFF;
+}
+
+.nav-link-option {
+    font-size: 18pt;
+    padding-left: 10px;
+    float: right;
+}
+
+.intro {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.about {
+    padding: 50px 0;
+    background-color: #4F6BFF;
+}
