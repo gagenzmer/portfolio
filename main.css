@@ -1,7 +1,12 @@
+@font-face {
+    font-family: Lato;
+    src: url('./fonts/Lato/Lato-Regular.ttf');
+}
+
 body {
     background-color: rgb(36, 36, 36);
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Lato;
 }
 
 .nav-logo {
@@ -25,6 +30,10 @@ body {
     font-size: 18pt;
     padding-left: 10px;
     float: right;
+}
+
+.modal-body-title {
+    margin-bottom: 30px;
 }
 
 .intro-title {
