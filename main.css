@@ -1,35 +1,82 @@
 @font-face {
-    font-family: Lato;
+    font-family: 'Lato';
     src: url('./fonts/Lato/Lato-Regular.ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('./fonts/Lato/Lato-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('./fonts/Lato/Lato-Black.ttf');
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('./fonts/Lato/Lato-Light.ttf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('./fonts/Lato/Lato-Thin.ttf');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('./fonts/Lato/Lato-Italic.ttf');
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('./fonts/Lato/Lato-BoldItalic.ttf');
+    font-style: italic;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('./fonts/Lato/Lato-LightItalic.ttf');
+    font-style: italic;
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: 'Courier New';
+    src: url('./fonts/Courier New/Courier New.ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Courier New';
+    src: url('./fonts/Courier New/Courier New Bold Italic font.ttf');
+    font-weight: bold;
 }
 
 body {
     background-color: rgb(36, 36, 36);
     color: white;
-    font-family: Lato;
+    font-family: 'Lato';
 }
 
 .nav-logo {
-    width: 100px;
-    height: 100px;
-    font-size: 42pt;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 38pt;
+    font-family: 'Courier New';
     font-weight: bold;
-    text-align: right;
-    color: white;
+}
+
+.nav-logo-box {
+    padding: 10px 0 10px 10px;
     background-color: #4F6BFF;
     border-radius: 10px;
-}
-
-.nav-logo-span {
-    position:absolute;
-    color:rgb(63, 63, 63);
-}
-
-.nav-link-option {
-    font-size: 18pt;
-    padding-left: 10px;
-    float: right;
 }
 
 .modal-body-title {
@@ -69,7 +116,7 @@ body {
 
 .list-title {
     margin: 30px 0;
-    font-weight: 100;
+    font-weight: bold;
     font-size: 16pt;
     color: #4F6BFF;
 }
@@ -77,20 +124,16 @@ body {
 .footer-logo {
     margin-bottom: 50px;
     font-size: 42pt;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New';
     font-weight: bold;
     text-align: center;
     color: white;
 }
 
 .footer-logo-box {
-    padding: 20px 20px 20px 0;
+    padding: 10px 10px 10px 0;
     background-color: #4F6BFF;
     border-radius: 10px;
-}
-
-.motto {
-    font-weight: lighter;
 }
 
 .footer {
